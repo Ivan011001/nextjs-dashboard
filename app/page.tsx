@@ -29,7 +29,6 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          {/* Add Hero Images Here */}
           <Image
             src="/hero-desktop.png"
             alt="image"
@@ -41,8 +40,8 @@ export default function Page() {
           <Image
             src="/hero-mobile.png"
             alt="image"
-            height={720}
-            width={650}
+            height={620}
+            width={560}
             className="block md:hidden"
           />
         </div>

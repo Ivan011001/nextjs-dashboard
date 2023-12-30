@@ -1,9 +1,15 @@
+import { Metadata } from 'next';
+
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import CardWrapper from '@/app/ui/dashboard/cards';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 import {
   RevenueChartSkeleton,
